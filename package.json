@@ -1,14 +1,14 @@
 {
-  "name": "express-ts",
+  "name": "express-ts-template",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "rimraf dist && npx tsc",
-    "preserve": "npm run build",
+    "compile": "rimraf dist && npx tsc",
+    "preserve": "npm run compile",
     "serve": "concurrently \"npx tsc -w\"  \"nodemon dist/index.js\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Maksym Hevyk",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.19",
